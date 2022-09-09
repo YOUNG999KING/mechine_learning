@@ -9,15 +9,17 @@ import matplotlib.pyplot as plt
 import math
 import random
 #load dataset
-
+#x1 is suppose to be the area of houses
 x1=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for i in range(0,18):
     x1[i]=random.uniform(15,20)
 #    print(x1[i])
+#x2 is the number of rooms
 x2=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for i in range(0,18):
     x2[i]=random.randint(1,3)
 #    print(x2[i])
+#y is the price of houses
 y=[14.8,17.5,16.9,14.5,14.6,14.4,15.0,20.1,18.8,15.7,14.9,13.5,13.6,15.4,14.0,11.8,13.0,12.7]
 #training set
 x1_train=x1[0:9]
