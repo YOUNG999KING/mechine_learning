@@ -37,6 +37,7 @@ b=3
 lr=0.00001
 #training cycle
 epoches=1000
+#y=w1*x+w2*x+b
 for i in range(epoches):
     sum_w1=0.0
     sum_w2=0.0
